@@ -3,7 +3,6 @@
   src: url(Norse-Bold.otf);
 }
 
-
 body {
   margin: 0px;
 }
@@ -16,11 +15,11 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(223, 235, 239);
 }
 
 .rainforest {
   display: flex;
+  flex-direction: column;
   background-image: url(rainforest-picture.jpg);
   width: 900px;
   height: 1000px;
@@ -36,14 +35,16 @@ body {
   justify-content: end;
 }
 
-.form {
-  height: 30%;
-  background-color: white;
-}
-
 .footer {
   height: 40%;
   background-color: rgb(235, 234, 240);
+}
+
+.form {
+  position: relative;
+  box-shadow: 0px 7px 7px 1px rgb(130, 130, 130);
+  height: 30%;
+  background-color: white;
 }
 
 .text1 {
@@ -143,4 +144,19 @@ input {
   margin-right: 20px;
   margin-left: 130px;
   height: 170px;
+}
+
+.odin-format {
+  display: flex;
+}
+
+.photo-credits {
+  margin-top: 520px;
+  width: 300px;
+  margin-left: 170px;
+  color: white;
+}
+
+.photo-credits a{
+  color: white;
 }
