@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Norse;
+  src: url(Norse-Bold.otf);
+}
+
+
 body {
   margin: 0px;
 }
@@ -14,7 +20,9 @@ body {
 }
 
 .rainforest {
-  width: 800px;
+  display: flex;
+  background-image: url(rainforest-picture.jpg);
+  width: 900px;
   height: 1000px;
 }
 
@@ -116,4 +124,23 @@ input {
 .column2 div {
   display: flex;
   flex-direction: column;
+}
+
+.odin-text {
+  color: white;
+  font-family: norse;
+  display: flex;
+  align-items: center;
+  font-family: ;
+  font-size: 100px;
+  margin-top: 200px;
+  height: 200px;
+  width: 100%;
+  background-color: rgba(29, 32, 32, 0.5);
+}
+
+.odin-pic {
+  margin-right: 20px;
+  margin-left: 130px;
+  height: 170px;
 }
